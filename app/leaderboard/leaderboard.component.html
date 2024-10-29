@@ -1,0 +1,6 @@
+<section class="container-lg mt-5" class="border p-4 rounded shadow text-center mx-auto">
+    <h1>Leaderboard</h1>
+    <div *ngFor="let user of leaderboard.slice(0,5)">
+        {{user.name}}: {{user.score}} out of 5
+    </div>
+</section>
